@@ -1,6 +1,6 @@
 <template>
-	<view class="page-body">
-		3
+	<view>
+		
 	</view>
 </template>
 
@@ -8,7 +8,11 @@
 	export default {
 		data() {
 			return {
-
+				list:[
+					{
+						
+					}
+				]
 			}
 		},
 		methods: {
