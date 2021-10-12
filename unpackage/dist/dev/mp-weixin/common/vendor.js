@@ -1,9 +1,9 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/vendor"],[
 /* 0 */,
 /* 1 */
-/*!*********************************************!*\
-  !*** /Users/liushu/code/uni-app/pages.json ***!
-  \*********************************************/
+/*!********************************!*\
+  !*** D:/code/ceshi/pages.json ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

@@ -1,9 +1,7 @@
 <template>
 	<view class="page">
 		<view class="header">
-			<image 
-				style="width: 130rpx; height: 130rpx; background-color: #eeeeee;" 
-				src="../../static/logo.png"
+			<image style="width: 130rpx; height: 130rpx; background-color: #eeeeee;" src="../../static/logo.png"
 				@error="imageError"></image>
 			<view>
 				<view>18092564370</view>
@@ -11,11 +9,21 @@
 				<view>汇检测</view>
 			</view>
 		</view>
-		
-		<view class="money">
-			
-		</view>
 
+		<view class="money">
+			<view>账户总金额</view>
+			<view style="display:flex;">
+				<text style="flex:1">5,535,500.00</text>
+				<view style="flex:1">
+					<button type="default" size="mini">充值</button>
+					<button type="default" size="mini">提现</button>
+				</view>
+			</view>
+			<view>
+				<text>可用金额</text>
+				<text>冻结金额</text>
+			</view>
+		</view>
 		<view>12345</view>
 	</view>
 </template>
@@ -34,11 +42,14 @@
 			display: flex;
 			margin-bottom: 16px;
 		}
-		.money{
-			height:234rpx;
+
+		.money {
+			color: #FFFFFF;
+			height: 170rpx;
 			background-image:
-			      url("~@/static/mine_money_background.png");
+				url("~@/static/mine_money_background.png");
 			background-size: 100% 100%;
+			padding: 32rpx;
 		}
 	}
 </style>
