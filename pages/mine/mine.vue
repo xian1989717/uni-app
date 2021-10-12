@@ -1,7 +1,9 @@
 <template>
 	<view class="page">
 		<view class="header">
-			<image style="width: 100px; height: 100px; background-color: #eeeeee;" src="../../static/logo.png"
+			<image 
+				style="width: 130rpx; height: 130rpx; background-color: #eeeeee;" 
+				src="../../static/logo.png"
 				@error="imageError"></image>
 			<view>
 				<view>18092564370</view>
@@ -14,8 +16,7 @@
 			
 		</view>
 
-		<view></view>
-	</view>
+		<view>12345</view>
 	</view>
 </template>
 
@@ -27,16 +28,17 @@
 
 <style lang="scss">
 	.page {
-		padding: 20px;
+		padding: 24px;
 
 		.header {
 			display: flex;
 			margin-bottom: 16px;
 		}
 		.money{
-			border-radius: 5px;
-			height:50px;
-			background-color: #F0AD4E;
+			height:234rpx;
+			background-image:
+			      url("~@/static/mine_money_background.png");
+			background-size: 100% 100%;
 		}
 	}
 </style>
